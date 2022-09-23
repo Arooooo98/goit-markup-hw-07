@@ -24,23 +24,33 @@
       <nav class="navigation">
         <!-- Nawigacja do innych stron -->
         <ul class="navigation-list">
-          <li class="navigation-list__heading"><a href="index.html" class="navigation-list__color navigation--after">Agencja</a></li>
-          <li class="navigation-list__heading"><a href="portfolio.html" class="navigation-list__color">Portfolio</a></li>
-          <li class="navigation-list__heading"><a href="contact" class="navigation-list__color">Kontakty</a></li>
+          <li class="navigation-list__heading"><a href="index.html" class="navigation-list__link navigation--after">Agencja</a></li>
+          <li class="navigation-list__heading"><a href="portfolio.html" class="navigation-list__link">Portfolio</a></li>
+          <li class="navigation-list__heading"><a href="contact" class="navigation-list__link">Kontakty</a></li>
         </ul>
       </nav>
-      <div class="contact">
+
+      <ul class="page-header__contact">
         <!-- Link do adresu e-mail  -->
-  <a href="mailto:info@devstudio.com" class="contact__link"> <svg class="contact__image" width="16" height="12" viewBox="0 0 16 12" xmlns="http://www.w3.org/2000/svg">
-<path d="M14.5 0H1.50001C0.672854 0 0 0.672853 0 1.50001V10.5C0 11.3271 0.672854 12 1.50001 12H14.5C15.3271 12 16 11.3271 16 10.5V1.50001C16 0.672853 15.3271 0 14.5 0ZM14.5 0.999994C14.5679 0.999994 14.6325 1.01409 14.6916 1.0387L8 6.83838L1.30833 1.0387C1.36742 1.01412 1.43204 0.999994 1.49998 0.999994H14.5ZM14.5 11H1.50001C1.22414 11 0.999996 10.7759 0.999996 10.5V2.09521L7.67236 7.87792C7.76661 7.95944 7.8833 7.99999 8 7.99999C8.1167 7.99999 8.23339 7.95948 8.32764 7.87792L15 2.09521V10.5C15 10.7759 14.7759 11 14.5 11Z"/>
-</svg>
+        <li>
+   <a href="mailto:info@devstudio.com" class="contact__link__mail">
+    <svg class="contact__svg__mail"> 
+      <use href="images/icons.svg#mail"></use>
+    </svg>
     info@devstudio.com</a>
+  </li>
+</a>
+
         <!-- Link do numeru telefonu -->
-        <a href="tel:+48111111111" class="contact__link"> <svg class="contact__image width="10" height="16" viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg">
-<path d="M8.5 0H1.5C0.672848 0 0 0.672848 0 1.5V14.5C0 15.3272 0.672848 16 1.5 16H8.5C9.32715 16 10 15.3272 10 14.5V1.5C10 0.672848 9.32715 0 8.5 0ZM1.5 1H8.5C8.77588 1 9 1.22412 9 1.5V12H1V1.5C1 1.22412 1.22412 1 1.5 1ZM8.5 15H1.5C1.22412 15 1 14.7759 1 14.5V13H9V14.5C9 14.7759 8.77588 15 8.5 15Z"/>
-<path d="M2.35355 13.7389C2.54882 13.9213 2.54882 14.2169 2.35355 14.3992C2.15828 14.5816 1.84172 14.5816 1.64645 14.3992C1.45118 14.2169 1.45118 13.9213 1.64645 13.7389C1.84172 13.5566 2.15828 13.5566 2.35355 13.7389Z"/>
-</svg>
+        <li>
+       <a href="tel:+48111111111" class="contact__link__phone"> 
+        <svg class="contact__svg__phone"> 
+      <use href="images/icons.svg#phone"></use>
+    </svg>
           +48 111 111 111</a>
+          </li>
+        </a>
+          </ul>
         </div>
       </div>
     </header>
@@ -50,7 +60,7 @@
       <section class="business">
         <div class="container">
           <div class="business__title">
-            <h1 class="business__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <h1 class="business__title">EFEKTYWNE ROZWIĄZANIA </br> DLA WASZEGO BIZNESU</h1>
           </div>
           <button class="business__btn" type="button" data-modal-open>Zamów usługę</button>
         </div>
@@ -66,10 +76,10 @@
 <use href="./images/icons.svg#sat"></use>
 </svg>
 </div>
-              <h3>LOREM IPSUM</h3>
+              <h3 class="post__heading">LOREM IPSUM</h3>
                <p class="post__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                  vel arcu sem. &nbsp; Sed non sodales dui. Interdum et malesuada
                 </p>
             </li>
 
@@ -79,10 +89,10 @@
 <use href="./images/icons.svg#clock"></use>
 </svg>
 </div>
-              <h3>LOREM IPSUM</h3>
+              <h3 class="post__heading">LOREM IPSUM</h3>
                <p class="post__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                  vel arcu sem. &nbsp; Sed non sodales dui. Interdum et malesuada
                 </p>
             </li>
 
@@ -92,10 +102,10 @@
 <use href="./images/icons.svg#komp"></use>
 </svg>
 </div>
-              <h3>LOREM IPSUM</h3>
+              <h3 class="post__heading">LOREM IPSUM</h3>
                <p class="post__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                  vel arcu sem. &nbsp; Sed non sodales dui. Interdum et malesuada
                 </p>
             </li>
 
@@ -105,10 +115,10 @@
 <use href="./images/icons.svg#astronaut"></use>
 </svg>
     </div>
-              <h3>LOREM IPSUM</h3>
+              <h3 class="post__heading">LOREM IPSUM</h3>
                <p class="post__text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                  vel arcu sem. &nbsp; Sed non sodales dui. Interdum et malesuada
                 </p>
             </li>
             </ul>
@@ -163,25 +173,25 @@
                   <h3 class="team__name">John Doe</h3>
                   <p class="team__job">Product Designer</p>
                     <div class="team__social">
-<a class="team__icon">
+<a class="team__icon" href="https://www.instagram.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#insta"></use>
 </svg>
 </a>
 
-<a class="team__icon">
+<a class="team__icon" href="https://www.twitter.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#twitter"></use>
 </svg>
 </a>
 
-<a class="team__icon">
+<a class="team__icon" href="https://www.facebook.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#fb"></use>
 </svg>
 </a>
 
-<a class="team__icon">
+<a class="team__icon" href="https://www.linkedin.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#linkedin"></use>
 </svg>
@@ -199,25 +209,25 @@
                     <h3 class="team__name">John Doe</h3>
                     <p class="team__job">Frontend Developer</p>
                     <div class="team__social">
-<a class="team__icon">
+<a class="team__icon" href="https://www.instagram.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#insta"></use>
 </svg>
 </a>
 
-<a class="team__icon">
+<a class="team__icon" href="https://www.twitter.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#twitter"></use>
 </svg>
 </a>
 
-<a class="team__icon">
+<a class="team__icon" href="https://www.facebook.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#fb"></use>
 </svg>
 </a>
 
-<a class="team__icon">
+<a class="team__icon" href="https://www.linkedin.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#linkedin"></use>
 </svg>
@@ -235,25 +245,25 @@
                     <h3 class="team__name">John Doe</h3>
                     <p class="team__job">Marketing</p>
                     <div class="team__social">
-<a class="team__icon">
+<a class="team__icon" href="https://www.instagram.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#insta"></use>
 </svg>
 </a>
 
-<a class="team__icon">
+<a class="team__icon" href="https://www.twitter.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#twitter"></use>
 </svg>
 </a>
 
-<a class="team__icon">
+<a class="team__icon" href="https://www.facebook.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#fb"></use>
 </svg>
 </a>
 
-<a class="team__icon">
+<a class="team__icon" href="https://www.linkedin.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#linkedin"></use>
 </svg>
@@ -271,25 +281,25 @@
                     <h3 class="team__name">John Doe</h3>
                     <p class="team__job">UI Designer</p>
                     <div class="team__social">
-<a class="team__icon">
+<a class="team__icon" href="https://www.instagram.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#insta"></use>
 </svg>
 </a>
 
-<a class="team__icon">
+<a class="team__icon" href="https://www.twitter.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#twitter"></use>
 </svg>
 </a>
 
-<a class="team__icon">
+<a class="team__icon" href="https://www.facebook.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#fb"></use>
 </svg>
 </a>
 
-<a class="team__icon">
+<a class="team__icon" href="https://www.linkedin.com">
 <svg class="team__svg">
 <use href="./images/icons.svg#linkedin"></use>
 </svg>
@@ -301,172 +311,190 @@
             </div>
       </section>
 
-       <section>
+
+       <section class="customers">
         <div class="container">
-        <h1>Nasi klienci</h1>
-        <div class="blok1">
+        <h1 class="customers__heading">Nasi klienci</h1>
+        <div class="customers__list">
          
-          <div class="rectangle">         
-   <svg class="loogo">
+          <a class="customers__url" href="">
+          <div class="customers_rectangle">         
+   <svg class="customers__logo">
         <use href="images/icons.svg#logo1"></use>
 </svg>
           </div>
+          </a>
 
-          <div class="rectangle">    
-            <svg class="loogo">
+          <a class="customers__url" href="">
+          <div class="customers_rectangle">    
+            <svg class="customers__logo">
         <use href="images/icons.svg#logo2"></use>
 </svg>
           </div>
+          </a>
 
-         <div class="rectangle">    
-            <svg class="loogo">
+          <a class="customers__url" href="">
+         <div class="customers_rectangle">    
+            <svg class="customers__logo">
         <use href="images/icons.svg#logo3"></use>
 </svg>
           </div>
+          </a>
 
-          <div class="rectangle">    
-            <svg class="loogo">
+          <a class="customers__url" href="">
+          <div class="customers_rectangle">    
+            <svg class="customers__logo">
         <use href="images/icons.svg#logo4"></use>
 </svg>
           </div>
+          </a>
 
-          <div class="rectangle">    
-            <svg class="loogo">
+          <a class="customers__url" href="">
+          <div class="customers_rectangle">    
+            <svg class="customers__logo">
         <use href="images/icons.svg#logo5"></use>
 </svg>
           </div>
+          </a>
 
-          <div class="rectangle">    
-            <svg class="loogo">
+          <a class="customers__url" href="">
+          <div class="customers_rectangle">    
+            <svg class="customers__logo">
         <use href="images/icons.svg#logo6"></use>
 </svg>
           </div>
+          </a>
           </div>
           </div>
           </section>
     </main>
+
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close-btn" data-modal-close>
-                    <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z" fill="black"/>
-</svg>
+        <button type="button" class="modal__close-btn" data-modal-close>X</button> 
         </button>
-        <form class="form-modal" name="signup-form">
-          <h3>Zostaw swoje dane w formularzu poniżej</h3>
-          <label for="name">Imię
-          <svg class="user icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        
+        <form class="modal-form" name="signup-form">
+          <h3 class="modal-form__heading">Zostaw swoje dane w formularzu poniżej</h3>
+          <label class="modal-form__label" for="name">Imię
+          <svg class="modal-form__icon--user modal-form__icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6 6C7.6575 6 9 4.6575 9 3C9 1.3425 7.6575 0 6 0C4.3425 0 3 1.3425 3 3C3 4.6575 4.3425 6 6 6ZM6 7.5C3.9975 7.5 0 8.505 0 10.5V11.25C0 11.6625 0.3375 12 0.75 12H11.25C11.6625 12 12 11.6625 12 11.25V10.5C12 8.505 8.0025 7.5 6 7.5Z"/>
 </svg>
-<input type="text" name="name" id="user-name" required>
+<input class="modal-form__input" type="text" name="name" id="user-name" required>
 </label>
 
 
-  <label for="phone">Telefon
-          <svg class="phone-icon icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <label class="modal-form__label" for="phone">Telefon
+          <svg class="modal-form__icon--phone modal-form__icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M11.996 9.12256L10.1579 8.91269C9.71641 8.86203 9.2822 9.01401 8.97102 9.32519L7.63945 10.6568C5.59144 9.61466 3.91251 7.94296 2.87041 5.8877L4.20922 4.54888C4.5204 4.2377 4.67237 3.80349 4.62171 3.36205L4.41185 1.53836C4.325 0.807445 3.70988 0.257446 2.97173 0.257446H1.71976C0.902004 0.257446 0.221746 0.937708 0.272403 1.75547C0.655953 7.93572 5.59868 12.8712 11.7717 13.2548C12.5894 13.3054 13.2697 12.6252 13.2697 11.8074V10.5555C13.2769 9.82453 12.7269 9.2094 11.996 9.12256Z"/>
 </svg>
-<input type="tel" name="phone" id="user-phone" required>
+<input class="modal-form__input" type="tel" name="phone" id="user-phone" required>
 </label>
 
 
-  <label for="email">E-mail
-          <svg class="email-icon icon" width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <label class="modal-form__label" for="email">E-mail
+          <svg class="modal-form__icon--email modal-form__icon" width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M14 0H2C1.175 0 0.5075 0.675 0.5075 1.5L0.5 10.5C0.5 11.325 1.175 12 2 12H14C14.825 12 15.5 11.325 15.5 10.5V1.5C15.5 0.675 14.825 0 14 0ZM13.7 3.1875L8.3975 6.5025C8.1575 6.6525 7.8425 6.6525 7.6025 6.5025L2.3 3.1875C2.1125 3.0675 2 2.865 2 2.6475C2 2.145 2.5475 1.845 2.975 2.1075L8 5.25L13.025 2.1075C13.4525 1.845 14 2.145 14 2.6475C14 2.865 13.8875 3.0675 13.7 3.1875Z"/>
 </svg>
-<input type="email" name="email" id="user-email" required>
+<input class="modal-form__input" type="email" name="email" id="user-email" required>
 </label>
 
 
-  <label>Komentarz
-          <textarea type="text" name="comment" placeholder="Wprowadź tekst"></textarea>
+  <label class="modal-form__label">Komentarz
+          <textarea class="modal-form__textarea" type="text" name="comment" placeholder="Wprowadź tekst"></textarea>
 </label>
-<div class="container-checkbox">
-  <input class="checkbox-napis" type="checkbox" name="consent" value="consent" required>
-  <label for="consent" class="checkbox-label">
+
+
+
+<div class="checkbox-container">
+  <input class="checkbox-container__default" type="checkbox" name="consent" value="consent" required>
+  <label for="consent" class="checkbox-container__label">
               Oświadczam, iż akceptuję
-              <a href="">Regulamin</a> i
-              <a href="">Politykę Prywatności</a>.
+              <a class="checkbox-container__link" href="">Regulamin</a> i
+              <a class="checkbox-container__link" href="">Politykę Prywatności</a>.
             </label>
 </div>
-<button type="submit">Wyślij</button>
+<button class="modal-form__button" type="submit">Wyślij</button>
         </form>
         </div>
         </div>
     <script src="./js/modal.js"></script>
   </body>
 
+
+
    <footer class="footer">
     <div class="container">
-      <div class="footerc">
-        <a href="index.html" class="web2 logo"><span class="blue">Web</span>Studio</a>
-        <address>
-          <span class="street">m. Warszawa, Aleje Jerozolimskie 21</span>
-          <br>
-  <a href="mailto:info@devstudio.com" class="adresd">
+      <div class="footer__address__container">
+        <a href="index.html" class="footer__web__logo"><span class="footer__web">Web</span>Studio</a>
+        <address class="footer__address">
+          <span class="footer__address__street">m. Warszawa, Aleje Jerozolimskie 21</span>
+          
+  <a href="mailto:info@devstudio.com" class="footer__address__contact">
     info@devstudio.com</a>
-    <br>
+   
         <!-- Link do numeru telefonu -->
-        <a href="tel:+48111111111" class="adresd">   
+        <a href="tel:+48111111111" class="footer__address__contact">   
           +48 111 111 111</a>
         </address>
       </div>
 
-      <div class="cfooter-social">
-        <h3>Dołącz do nas</h3>
-<ul class="footer-social">
-  <li class="sociall">
-    <a class="socialicon">
-<div class="team__icon">
-<svg class="team_svg">
+      <div class="footer__social-media">
+        <h3 class="footer__heading">Dołącz do nas</h3>
+<ul class="footer__social-list">
+  <li class="footer__social-list__background">
+    <a class="footer__social-list__icon-list" href="https://www.instagram.com">
+<div class="footer__social-list__icon">
+<svg class="footer__social-list__svg">
 <use href="./images/icons.svg#insta"></use>
 </svg>
 </div>
 </a>
   </li>
 
-  <li class="sociall">
-    <a class="socialicon">
-      <div class="team__icon">
-<svg class="team_svg">
+  <li class="footer__social-list__background">
+    <a class="footer__social-list__icon-list" href="https://www.twitter.com">
+<div class="footer__social-list__icon">
+<svg class="footer__social-list__svg">
 <use href="./images/icons.svg#twitter"></use>
 </svg>
 </div>
 </a>
   </li>
 
-  <li class="sociall">
-    <a class="socialicon">
-      <div class="team__icon">
-<svg class="team_svg">
+  <li class="footer__social-list__background">
+    <a class="footer__social-list__icon-list" href="https://www.facebook.com">
+<div class="footer__social-list__icon">
+<svg class="footer__social-list__svg">
 <use href="./images/icons.svg#fb"></use>
 </svg>
 </div>
 </a>
   </li>
 
-  <li class="sociall">
-    <a class="socialicon">
-      <div class="team__icon">
-<svg class="team_svg">
+  <li class="footer__social-list__background">
+    <a class="footer__social-list__icon-list" href="https://www.linkedin.com">
+<div class="footer__social-list__icon">
+<svg class="footer__social-list__svg">
 <use href="./images/icons.svg#linkedin"></use>
 </svg>
 </div>
-    </a>
+</a>
   </li>
 </ul>
       </div>
-      <div class="container-newsletter">
-        <h3>ZAPISZ SIĘ DO NEWSLETTERA</h3>
-        <div class="newsletter">
+      <div class="footer__newsletter__container">
+        <h3 class="footer__newsletter__heading">ZAPISZ SIĘ DO NEWSLETTERA</h3>
+        <div class="footer__newsletter__label">
           <form name="newsletter" action="http://localhost:3000/posts" method="POST">
               <label>
-                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="email" name="email" placeholder="E-mail" class="footer__newsletter__input" required>
               </label>
 
-              <button type="submit">
-                <span class="save">Zapisz się</span>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <button type="submit" class="footer__newsletter__submit">
+                <span class="footer__newsletter__submit--save">Zapisz się</span>
+                <svg class="footer__newsletter__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z" fill="white"/>
 </svg>
               </button>
