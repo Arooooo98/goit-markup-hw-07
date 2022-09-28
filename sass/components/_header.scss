@@ -110,8 +110,11 @@
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
-  &:hover {
+  &:hover,  &:focus{
     color: #2196f3;
+  }
+  &:hover svg, &:focus svg{
+    fill: #2196f3;
   }
 }
 
@@ -125,8 +128,11 @@
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
-  &:hover {
+   &:hover,  &:focus{
     color: #2196f3;
+  }
+  &:hover svg, &:focus svg{
+    fill: #2196f3;
   }
 }
 
@@ -138,7 +144,7 @@
   vertical-align: middle;
   transition: 250ms;
   transition-timing-function: (0.4, 0, 0.2, 1);
-  &:hover {
+  &:hover svg {
     fill: #2196f3;
   }
 }

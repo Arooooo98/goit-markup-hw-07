@@ -1,0 +1,57 @@
+/* LOREM TEXT */
+.post {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  &__cards {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  &__background {
+    background-color: #f5f4fa;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__images {
+    width: 70px;
+    height: 70px;
+  }
+
+  &__text {
+    color: #757575;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 15px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+  }
+
+  &__heading {
+    text-align: left;
+    padding-top: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+}
+/* LOREM END*/

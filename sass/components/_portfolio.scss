@@ -3,16 +3,17 @@
   padding-bottom: 0px;
 }
 
-.section__portfolio__button {
+.section__portfolio {
+  padding-top: 56px;
+&__button {
   width: 30%;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
-
-.section__portfolio {
-  padding-top: 56px;
 }
+
+
 
 .button-list {
   display: flex;

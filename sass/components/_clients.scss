@@ -1,0 +1,47 @@
+/*NASI KLIENCI*/
+.customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  &__heading {
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6;
+    text-align: center;
+  }
+}
+
+.customers__list {
+  display: flex;
+  justify-content: space-between;
+  fill: #afb1b8;
+  transition: 250ms;
+  transition-timing-function: (0.4, 0, 0.2, 1);
+}
+
+.customers__url {
+  cursor: pointer;
+  &:focus svg {
+    fill: #2196f3;
+  }
+}
+
+.customers_rectangle {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    border-color: #2196f3;
+  }
+}
+
+.customers__logo {
+  width: 106px;
+  height: 60.04px;
+  fill: #afb1b8;
+}
+/*Klienci koniec*/
