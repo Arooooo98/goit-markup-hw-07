@@ -3,99 +3,87 @@
   background: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
-&__title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  padding-bottom: 50px;
-}
-}
-
-
-
-.team__cards {
-  display: flex;
-  justify-content: space-between;
-  /* Make a flex container multiline */
-  gap: 10px;
-  padding: 0;
-  list-style: none;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-
-.team__item {
-  padding: 0px;
-  background-color: #fff;
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  padding-bottom: 25px;
-}
-
-.team__name {
-  text-align: center;
-  padding-top: 30px;
-  margin: 0;
-}
-
-.team__job {
-  color: #757575;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-  padding-top: 8px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin: 0;
-}
-
-.team__social {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 15px;
-  transition: 250ms;
-  transition-timing-function: (0.4, 0, 0.2, 1);
-  margin-left: 32px;
-  margin-right: 32px;
-  cursor: pointer;
-}
-
-.team__icon {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: transparent;
-  justify-content: center;
-  align-items: center;
-}
-
-.team__icon:hover {
-  background-color: #2196f3;
-  cursor: pointer;
-}
-
-.team__icon:hover svg {
-  fill: #fff;
-}
-
-.team__icon:focus {
-  background-color: #2196f3;
-}
-
-.team__icon:focus svg {
-  fill: white;
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+  }
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    /* Make a flex container multiline */
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  }
+  &__item {
+    padding: 0px;
+    background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    padding-bottom: 25px;
+  }
+  &__name {
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+  }
+  &__job {
+    color: #757575;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    padding-top: 8px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 0;
+  }
+  &__social {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    transition: 250ms;
+    transition-timing-function: (0.4, 0, 0.2, 1);
+    margin-left: 32px;
+    margin-right: 32px;
+    cursor: pointer;
+  }
+  &__icon {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background-color: #2196f3;
+      cursor: pointer;
+    }
+    &:hover svg {
+      fill: #fff;
+    }
+    &:focus {
+      background-color: #2196f3;
+    }
+    &:focus svg {
+      fill: white;
+    }
+  }
 }
 
 .team__svg {
