@@ -877,8 +877,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style-type: none;
-  padding-right: 30px;
-  padding-left: 30px;
+  gap: 40px;
 }
 .post__background {
   background-color: #f5f4fa;
